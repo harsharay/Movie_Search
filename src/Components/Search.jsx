@@ -15,7 +15,7 @@ function Search() {
 
     let apiKey = "e9b430ec";
     let searchURL = `https://www.omdbapi.com/?apikey=${apiKey}&s=${state.query}`;
-    let detailedInfo = `http://www.omdbapi.com/?apikey=${apiKey}&i=`
+    let detailedInfo = `https://www.omdbapi.com/?apikey=${apiKey}&i=`
     
     let handleChange = e => {
         let newValue = e.target.value;

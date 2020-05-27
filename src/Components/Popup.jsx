@@ -22,7 +22,7 @@ function Popup(props) {
                         
                         <h3>IMDB: </h3><h2>{props.trigger.imdbRating}</h2>
                         <h3>MetaScore: </h3><h2>{props.trigger.Metascore}</h2>
-                        {/* <h3>Rotten Tomatoes: </h3><h2>{props.trigger.Ratings[0].Source}</h2> */}
+                        
                     </div>
                 </div>
             </div>
